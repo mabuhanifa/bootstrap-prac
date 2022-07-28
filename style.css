@@ -10,3 +10,31 @@
     object-fit: cover;
     border-radius: 1rem;
 }
+
+.c_t {
+    margin-top: 70px;
+}
+
+.social-media {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.f-icon {
+    font-size: 24px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
