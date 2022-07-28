@@ -28,10 +28,8 @@
 
     <!-- Font-Awesome-CDN -->
 
-    <script
-      src="https://kit.fontawesome.com/c29bd50538.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
   </head>
   <body>
     <header class="container-lg">
@@ -84,7 +82,7 @@
 
     </section>
 
-    <div id="carouselExampleInterval" class="carousel slide sm-w-75 mx-auto" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide w-75 mx-auto" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="./images/cover/cover-1.png" class="d-block w-100 c_img" alt="...">
@@ -137,7 +135,7 @@
 
     <section class="container text-center mt-5">
         <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-2 border border-secondary">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-2">
             <img src="./images/course/course-1.png" alt="">
             <div class="text-start p-3 mt-2">
                 <h4>Fundamental of UI/UX Design</h4>
@@ -203,14 +201,58 @@
         <button class="btn btn-primary">See More Courses</button>
       </div>
 
+      <!-- ------Join------ -->
+
+      <section class="container d-flex bg-primary p-5 mt-5">
+        <div class="text-white w-100">
+            <h2>
+                Ready To Join ?
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam repellat officia eius aliquam, molestiae nemo, reprehenderit quibusdam dicta impedit doloribus quos? Necessitatibus ducimus ab beatae!
+            </p>
+        </div>
+        <div class="d-flex w-100 justify-content-end align-items-center" >
+            
+                <div>
+                    <button  type="button" class="btn btn-light text-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Now</button>
+
+                    <!-- ------Modal------ -->
+
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="staticBackdropLabel">Register .. !</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Register for our Course and contact us to know more information
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            
+        </div>
+      </section>
+
     <!-- ------Accordion+Frequently---Asked---Questions------ -->
+            <section class="text-center mt-5 d-flex justify-content-center">
+                                                
+                <div class="w-50">
+                    <h1>Frequently Asked Questions</h1>
+                    <p class="p-3 text-secondary">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, blanditiis! Suscipit beatae dolor iure quam est sunt, cumque modi omnis.
+                    </p>
+                </div>
+            </section>
 
-
-    <section class="container-lg ">
-        <h1 class="text-center mt-5"> Frequently Asked Questions</h1>
-        <section class="my-5 ">
-            <div class="row">
-                <div class="col-lg-8">
+    
+                <section class="w-50 mx-auto mt-3">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -272,89 +314,33 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-    </section>
+                </section>
+            
 
-    <!-- -------------Customer-Reviews------------- -->
+    <!-- -------------Companies------------- -->
 
+  <h1 class="text-center mt-5">Trusted by over 800+ companies</h1>
+  <section class="d-flex justify-content-center flex-wrap">
+    <img src="./images/company/company-1.png" alt="" class="mx-5 my-5">
+    <img src="./images/company/company-2.png" alt="" class="mx-5 my-5">
+    <img src="./images/company/company-3.png" alt="" class="mx-5 my-5">
+    <img src="./images/company/company-4.png" alt="" class="mx-5 my-5">
+    <img src="./images/company/company-5.png" alt="" class="mx-5 my-5">
+    <img src="./images/company/company-6.png" alt="" class="mx-5 my-5">
 
-
-    <section class="container-lg mb-5">
-        <h2 class="text-center p-4">What our customers are saying</h2>
-        <div class="row">
-            <div class="col-lg-4 shadow-lg p-4">
-                <img class="w-25 rounded-circle" src="./images/r-1.png" alt="">
-                <h4>John Smith</h4>
-                <span><i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i></span>
-                <p>Our overall experience with meetings at the Bashundhara Convention Centre had been excellent. Bernadeen and Gail are awesome to work with. Thank you so much!</p>
-
-
-
-            </div>
-            <div class="col-lg-4 shadow-lg p-4">
-                <img class="w-25 rounded-circle" src="./images/r-2.jpg" alt="">
-                <h4>Mary Jane</h4>
-                <span>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                </span>
-                <p>The staff at the Bashundhara Convention Centre is great to work with. We would not be able to pull off such a great conference without all of their help. So thank you. See you next year!!</p>
-
-            </div>
-            <div class="col-lg-4 shadow-lg p-4">
-                <img class="w-25 rounded-circle" src="./images/r-3.png" alt="">
-                <h4>Jason Brown</h4>
-                <span>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                </span>
-                <p>"It is always a great conference at the Bashundhara Convention Centre t. The relaxed atmosphere, and very friendly and attentive staff make it all come together and work great.</p>
-
-            </div>
-
-        </div>
-    </section>
+  </section>
 
     <!-- ------------------------------Footer------------------------------ -->
 
-    <footer class="bg-dark">
-        <div class="container-fluid p-5">
-            <div class="row flex-lg-row flex-sm-column-reverse flex-sm-column-reverse">
-                <div class="col-lg-6 text-white mx-auto c-right">
-
-
-                    <p class="c-content"><span>&#169</span> 2022 Bashundhara Convention Centre. </p>
-
-
-                </div>
-                <div class="col-lg-6 text-white">
-
-                    <div class="w-50 d-flex flex-column justify-content-center ms-auto me-5 mt-5">
-
-                        <h6 class="ms-4">Get the App</h6>
-
-                        <a href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849" target="_blank">
-                            <img class="w-50 p-2" src="./icons/App Store Badge.png" alt="">
-                        </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank"> <img class="w-50 p-2" src="./icons/Layer 2.png" alt=""></a>
-
-
-                    </div>
-                </div>
-            </div>
+    <footer class="bg-dark p-3 text-center text-light">
+        <h2 class="my-5">Shikkha.com</h2>
+        <p><small>Office 41, Zindabazar, Matirhat</small></p>
+        <p><small>New Market, Dhaka</small></p>
+        <p><small>Privacy Policy | Terms of use</small></p>
+        <div>
+            
         </div>
+
     </footer>
 
 
